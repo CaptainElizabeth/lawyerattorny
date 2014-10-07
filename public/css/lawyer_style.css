@@ -1,0 +1,96 @@
+
+h1 {
+    font-family:Georgia, serif;
+
+}
+
+a  {
+    color: whitesmoke;
+
+}
+
+body {
+    background-color: lightblue;
+}
+
+.box1 {
+    width:100px;
+    length:1500px;
+    background-color: grey;
+    font-size:120%;
+    -webkit-transition: width 1s;
+    transition:height .4s, width .4s, background-color .4s, font-size .4s;
+
+}
+.box1:hover {
+    width:130px;
+    length:150px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 130%;
+
+}
+
+p {
+    font-family: Georgia, sans-serif;
+}
+
+.col {
+    border-style: double;
+    width:700px;
+    text-align: center;
+    position: relative;
+    left:18%;
+    right:22%;
+    background-color: white;
+
+
+}
+
+h2 {
+    font-family: Georgia, sans-serif;
+
+}
+
+.footnote {
+    text-align: center;
+
+}
+
+.article {
+    color:blue;
+    font-family: Georgia, sans-serif;
+    text-decoration: underline;
+    font-size: 100%;
+    -webkit-transition: width .4s;
+    transition:height .4s, width .4s, font-size .4s;
+
+}
+.article:hover {
+    font-size: 115%;
+
+}
+
+.box2 {
+    opacity: 0.0;
+    color: white;
+    background-color: white;
+    -webkit-transition: width 1s;
+    transition: color 1s, opacity 1s;
+}
+
+.box2:hover {
+    opacity: 1.0;
+    color: black;
+    font-size:115%;
+
+
+}
+.date {
+    font-weight: bold;
+    color: black;
+}
+
+.external {
+    text-decoration: underline;
+}
